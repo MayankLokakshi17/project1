@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Customer Relationship Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Customer Relationship Manager</h1>
+  </header>
+
+  <main>
+    <section class="customer-list">
+      <h2>Customer List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Emma Watson</td>
+            <td>emma@example.com</td>
+            <td>123-456-7890</td>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+            <td>987-654-3210</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="customer-form">
+      <h2>Add New Customer</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter full name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter email address" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" placeholder="Enter phone number" required />
+        </div>
+        <button type="submit">Add Customer</button>
+      </form>
+      <p class="note">* This is a demo. Form submit won’t add customers without backend or JavaScript.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CRM App</p>
+  </footer>
+</body>
+</html>
